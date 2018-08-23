@@ -1,0 +1,19 @@
+.widget .rsp-ul .rsp-li{
+    display: inline-grid;
+    grid-template-columns: 75px auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+}
+.widget .rsp-ul .rsp-li .rsp-thumbnail img{
+    width: 75px;
+}
+.widget .rsp-ul .rsp-li .rsp-content .rsp-title{
+    margin-bottom: 0;
+}
+.widget .rsp-ul .rsp-li .rsp-content .rsp-excerpt{
+    font-size: 12px;
+}
+.widget .rsp-ul .rsp-li .rsp-content .rsp-title .rsp-title-link{
+    font-weight: 700;
+    font-size: 14px;
+}
